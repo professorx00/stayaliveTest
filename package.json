@@ -1,0 +1,70 @@
+{
+  "name": "stay_alive",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js && react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.3",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.0",
+    "@auth0/auth0-spa-js": "^1.5.0",
+    "@devexpress/dx-react-chart": "^2.3.0",
+    "@devexpress/dx-react-chart-material-ui": "^2.3.0",
+    "@devexpress/dx-react-core": "^2.3.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@material-ui/core": "^4.6.1",
+    "@material-ui/icons": "^4.5.1",
+    "@mdi/js": "^4.5.95",
+    "@mdi/react": "^1.2.1",
+    "auth0-js": "^9.11.3",
+    "chart.js": "^2.9.3",
+    "react-animated-css": "^1.2.1",
+    "react-chartjs-2": "^2.8.0",
+    "react-motion": "^0.5.2",
+    "react-router-dom": "^5.1.2",
+    "react-charts": "^2.0.0-beta.6",
+    "reactstrap": "^8.0.0",
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "helmet": "^3.18.0",
+    "highlight.js": "^9.15.6",
+    "jwks-rsa": "^1.4.0",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.0.0",
+    "npm-run-all": "^4.1.5",
+    "sequelize": "^5.21.2",
+    "sql": "^0.78.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+}
